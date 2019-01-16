@@ -22,7 +22,7 @@
 
 # Set to true if you need to enable Magic Mount
 # Most mods would like it to be enabled
-AUTOMOUNT=false
+AUTOMOUNT=true
 
 # Set to true if you need to load system.prop
 PROPFILE=true
@@ -31,7 +31,7 @@ PROPFILE=true
 POSTFSDATA=false
 
 # Set to true if you need late_start service script
-LATESTARTSERVICE=false
+LATESTARTSERVICE=true
 
 ##########################################################################################
 # Installation Message
@@ -41,7 +41,8 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "    Software Navbar Enabler    "
+  ui_print "    Hardware Buttons to        "
+  ui_print "     Software Navbar           "
   ui_print "       by gregthwuen           "
   ui_print "                               "
   ui_print "  (tested with Magisk v18.0    "

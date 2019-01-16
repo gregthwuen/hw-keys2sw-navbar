@@ -1,7 +1,7 @@
-id=sw-navbar-enabler
-name=Software Navbar Enabler
-version=v1.0
-versionCode=2
+id=hw-keys2sw-navbar
+name=Hardware Buttons to Software Navbar
+version=v0.1
+versionCode=1
 author=gregthwuen
-description=Enables the software navbar by modifying build.prop
+description=Enables the software navbar and disbales hardware navigation buttons
 minMagisk=17000
